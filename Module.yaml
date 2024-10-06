@@ -7,10 +7,10 @@ categories:                    # Array of category that will be used to group th
   - 'Ingress'
 type: 'Input'      # Module type (Input, Processing, Output) that will be used to group the module in the UI.
 image:
-  name: 'weevenetwork/i2c-input'     # Image name from the docker registry.
+  name: 'beetaone/i2c-input'     # Image name from the docker registry.
   tag: 'v2.0.1'                      # Image tag from the docker registry.
-  homepage: 'https://hub.docker.com/r/weevenetwork/i2c-input'  # Image homepage from the docker registry.
-repository: 'https://github.com/weeve-modules/i2c-input'     # Repository URL to source code.
+  homepage: 'https://hub.docker.com/r/beetaone/i2c-input'  # Image homepage from the docker registry.
+repository: 'https://github.com/beetaone/module-i2c-input'     # Repository URL to source code.
 envs:                                   # Array of environment variables that will be used to configure the module. Also used to show related fields on the UI.
   - name: I2C device path         # name of the field to be displayed on the UI.
     key: I2C_INTERFACE_PATH           # key to set in the environment variables.
@@ -67,4 +67,4 @@ tags:                                   # Array of tags.
   - 'Python'
   - 'Input'
   - 'i2c-input'
-icon: 'https://icons-020-demo.s3.eu-central-1.amazonaws.com/mi_I2C_input.png'    # Icon URL that will be displayed in the UI.
+icon: 'https://icons-020-demo.s3.eu-central-1.amazonaws.com/mi_I2C_input.png'    # Icon URL that will be displayed in the UI.he UI.
